@@ -330,7 +330,7 @@ wheels = [
 [[package]]
 name = "health-data-model"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "gpxpy" },
     { name = "jupyter" },
